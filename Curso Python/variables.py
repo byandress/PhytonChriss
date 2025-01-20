@@ -1,9 +1,15 @@
-miVariable = 10
-nombre = "Juan"
-precio = 19.99
-esActivo = True
+# Definición de variables
+nombre = "Carlos"
+edad = 25
+altura = 1.80
+es_estudiante = True
 
-edad = 30               # int
-nombre = "Ana"          # str
-altura = 1.75           # float
-es_estudiante = True    # bool
+# Impresión de las variables
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:", altura)
+print("Es estudiante:", es_estudiante)
+
+# Modificación de variable
+edad = 26  # Actualizando la edad
+print("Edad actualizada:", edad)
